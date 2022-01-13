@@ -1,0 +1,261 @@
+body{
+    background-color: rgb(221, 209, 209);
+    color: rgb(37, 35, 35);
+    
+}
+.card{
+background-color: rgb(196, 189, 189);
+color: rgb(126, 81, 81);
+
+}
+.navbar{
+    background-color: rgb(119, 103, 82);
+}
+.form-control{
+ position: relative;
+ overflow: hidden;
+
+}
+ .asterisk{
+    margin-top: -29px;  
+    right: 30px;
+    position: absolute;
+    
+
+}
+.show-pass{
+    position: absolute;
+    top: 150px;
+    right: 40px;
+}
+
+.main-table tr:first-child td {
+    background-color: rgb(119, 103, 82);
+    color:black;
+    text-align: center;
+}
+.main-table tr td{
+    vertical-align: middle;
+    background-color: rgb(219, 216, 216);
+    border:blanchedalmond solid 1px;
+    
+}
+.btn{
+    padding: 5px 10px;
+}
+.ahmed{
+    margin:auto 14%;
+    width:50px;   
+}
+.home-stats .stat{
+   position: relative;
+   border: #CCC solid 10px;
+   padding: 15px;
+   font-size: 15px ;
+   color: white;
+   border-radius: 15%;
+   overflow: hidden;
+}
+.home-stats .stat .info{
+   float: right;
+  
+}
+.home-stats .stat i{
+    font-size: 90px;
+}
+.home-stats .st-members{
+    background-color:#12470b ;
+}
+.home-stats .st-pending{
+    background-color:darkblue ;
+}
+.home-stats .st-items{
+    background-color:#5f0d0d ;
+}
+.home-stats .st-comments{
+    background-color:#3a2e0c ;
+}
+.home-stats .stat span{
+    display: block;
+    font-size: 50px;
+    
+}
+.home-stats .stat span a{
+    color: wheat;
+    text-decoration: none; 
+}
+.latest .panel-heading{
+    background-color: rgb(80, 12, 12);
+    padding: 10px;
+    color: wheat;
+    border-radius: 10px 10px 0px 0px;
+}
+.latest .comment-box  {
+    margin: 3px 1px 10px 5px ;
+    
+}
+.latest .comment-box .member-n,
+.latest .comment-box .member-c{
+ display: inline-block;
+
+}
+.latest .comment-box .member-n{
+    width: 80px;
+    text-align: center;
+    margin-right: 20px;
+    top: -10px;
+    position: relative;
+    font-weight: bold;
+    
+}
+.latest .comment-box .member-c{
+    width: calc(100% - 100px);
+    background-color: #EEE;
+    padding: 10px;
+    border-radius: 20px;
+    position: relative;
+   
+}
+.latest .comment-box .member-c::before{
+    content: "";
+    display: block;
+    position: absolute;
+    left: -19px;
+    top: 12px;
+    width: 0;
+    height: 0;
+    border-style: solid;
+    border-color:transparent #EEE transparent transparent;
+    border-width: 10px;
+
+}
+.latest .toggle-info {
+    color: rgb(167, 120, 120);
+    margin-top: 0px;
+    
+}
+.latest .toggle-info:hover{
+    color: wheat;
+    cursor: pointer;
+   
+}
+.latest .panel-body{
+    background-color: white;
+    padding: 10px;
+    border-radius: 0px 0px 10px 10px;
+}
+.latset-users{
+    margin: 0px;
+    padding-top: 2px;
+    font-size: 15px;
+    margin-top: 2px;
+    margin-bottom: 0%;
+    
+}
+.latset-users .badge{
+    margin-left:85% ;
+    margin-top: 0%;
+    padding: 5px 15px;
+    width: 50px;
+    
+}
+.latset-users li{
+   margin-bottom: 20px;
+   padding: 10px;
+  font-weight: bold; 
+}
+.latset-users li:nth-child(odd){
+    background-color: #EEE;
+    
+}
+.koko{
+    background-color: rgb(185, 173, 157);
+    padding: 3px;
+}
+.categories .panel-heading{
+    background-color: rgb(80, 12, 12);
+    padding: 10px;
+    color: wheat;
+    border-radius: 10px 10px 0px 0px;
+    position: relative;
+}
+.categories .panel-heading .option{
+    position: absolute;
+    top: 10px;
+    right: 15px;
+    
+}
+.categories .panel-heading .option a{
+    color: rgb(83, 156, 35);
+}
+.categories .panel-heading .option span{
+    color: rgb(83, 156, 35);
+    cursor: pointer;
+}
+.categories .panel-heading .option .Active{
+    color: rgb(143, 94, 30);
+}
+.categories .panel-body{
+    background-color: white;
+    padding: 0px 5px ;
+    border-radius: 0px 0px 10px 10px;
+    position: relative;
+    overflow: hidden;
+    margin-bottom: 50px;
+    
+}
+
+.categories .panel-body .cat:hover{
+    background-color: #EEE;
+}
+hr{
+    margin-top: 8px;
+    margin-bottom: 0rem;
+}
+.categories .panel-body .cat:hover .hidden-btn{
+    right: 15px;
+}
+.categories .panel-body .cat .hidden-btn {
+ -webkit-transition: all .5s ease-in-out;
+ -moz-transition: all .5s ease-in-out;
+ transition: all .5s ease-in-out;
+ position: absolute;
+ padding-top: 20px;
+ right: -120px;
+
+}
+.categories .panel-body .cat h3{
+    margin: 0px 0px 20px;
+    cursor: pointer;
+    color: darkred;
+
+    
+     
+}
+.categories .panel-body .cat .full-view p {
+   margin: 10px 0px;
+}
+.categories .panel-body .cat:last-of-type ~ hr{
+    display: none;
+}
+.categories .panel-body .cat .vis{
+    background-color: rgb(47, 47, 95);
+    color: wheat;
+    margin-right: 10px;
+    border-radius: 5px;
+    padding: 5px;
+}
+.categories .panel-body .cat .com{
+    background-color: rgb(139, 84, 20);
+    color: wheat;
+    margin-right: 10px;
+    border-radius: 5px;
+    padding: 5px;
+}
+.categories .panel-body .cat .ads{
+    background-color: rgb(109, 46, 57);
+    color: wheat;
+    margin-right: 10px;
+    border-radius: 5px;
+    padding: 5px;
+}

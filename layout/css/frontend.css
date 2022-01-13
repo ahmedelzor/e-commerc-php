@@ -1,0 +1,183 @@
+body{
+    background-color: rgb(221, 209, 209);
+    color: rgb(37, 35, 35);
+    
+}
+
+
+/* start navbar */
+nav{
+    background:linear-gradient(to left, rgb(38, 8, 61)60%,rgb(114, 45, 153));
+     
+}
+/* .navbar-toggler{
+  margin-left: 82%;
+
+}
+@media(max-width : 500px){
+    .navbar-toggler{
+        margin-left: 50%;
+    }
+} */
+
+nav ul li .ahmed{
+   text-decoration: none;
+   color: white;
+   margin:10px;   
+   float: left;
+   
+}
+nav ul li a{
+    margin-left: 10px;
+}
+nav ul li a:hover{
+    text-decoration: none;
+    color: wheat;
+    
+    
+}
+
+/* end navbar */
+
+/* start header */
+  .Upper-nav{
+      height: 50px;
+      padding: 3px;
+      
+  }
+  .Upper-nav span{
+      border: 2px solid rgb(61, 7, 66);
+      margin-left: 5px;
+  }
+  .Upper-nav .dropdown-menu{
+      border: 1px solid darkred;
+  }
+  .Upper-nav .dropdown-menu li{
+      margin: 10px;
+  }
+  .Upper-nav a{
+      padding: 3px;
+     color: rgb(87, 21, 122);
+    
+
+  }
+
+  .Upper-nav a:hover{
+      text-decoration: none;
+      background-color: navajowhite;
+  }
+/* end header */
+
+/* start login page */
+
+.asterisk{
+    margin-top: -29px;  
+    right: 30px;
+    position: absolute;
+    
+
+}
+.show-pass{
+    position: absolute;
+    top: 150px;
+    right: 40px;
+}
+.login-page h1{
+    color: rgb(155, 154, 154);
+}
+
+.login-page h1 [data-class="login"].selected{
+   color: rgb(6, 6, 219);
+   font-weight: bold;
+}
+.login-page h1 [data-class="signup"].selected{
+    color: rgb(6, 126, 36);
+    font-weight: bold;
+ }
+.login-page h1 span{
+cursor: pointer;
+
+}
+.login-page .signup{
+    display: none;
+    
+}
+/* end login pagr */
+
+/*  start categories */
+.card{
+    border-radius: 30px;
+    border: 15px solid rgb(221, 209, 209);
+    width: 18rem;
+}
+.card-body{
+    position: relative;
+}
+.Price-tag{
+    position: absolute;
+    padding: 5px;
+    top: 12px;
+    background-color: darkmagenta;
+    color: wheat;
+    border-radius: 0px 10px 10px 0px;
+    font-weight: bold;
+}
+/*  end categories */
+
+/* start profile */
+
+.block .panel-heading{
+  background-color: rgb(62, 4, 70);
+  color: wheat;
+  padding: 10px;
+  border-radius: 10px 10px 0px 0px;
+}
+.block .panel-body{
+    background-color: white;
+    color: darkred;
+    border-radius: 0px 0px 10px 10px;
+    padding: 10px;
+}
+.block .panel-body .item {
+    height: 450px;
+    width: 280px;
+}
+.block .panel-body p{
+    width: 250px;
+    height: 45px;
+    top: 10px;
+
+}
+
+.date{
+    text-align: right;
+    font-size: 13px;
+    color: #AAA;
+    font-weight: bold;
+}
+.approve-status{
+    position: absolute;
+    padding: 5px;
+    top: 50px;
+    background-color: rgb(119, 37, 37);
+    color: wheat;
+    border-radius: 0px 10px 10px 0px;
+    font-weight: bold; 
+}
+/* end profile */
+
+/* start items */
+.media-body ul li{
+    padding: 10px;
+    
+}
+.media-body ul li a{
+    text-decoration: none;
+    color: black;
+}
+
+
+
+
+
+/* end items */
